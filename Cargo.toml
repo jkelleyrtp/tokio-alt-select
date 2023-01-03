@@ -2,6 +2,11 @@
 name = "tokio-alt-select"
 version = "0.1.0"
 edition = "2021"
+description = "Alternative tokio select macro for async await"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/jkelleyrtp/tokio-alt-select/"
+keywords = ["tokio", "select", "async", "await"]
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
