@@ -27,6 +27,7 @@ macro_rules! select {
                 $( $rest:tt )*
             }
         ),*
+        $(,)?
     ) => {
         tokio::select! {
             biased;
@@ -44,6 +45,7 @@ macro_rules! select {
                 $( $rest:tt )*
             }
         ),*
+        $(,)?
     ) => {
         tokio::select! {
             $(
